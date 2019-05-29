@@ -39,6 +39,6 @@ other.
 %make_install
 
 %files
-%doc Changes COPYING META.json META.yml MYMETA.yml README
+%doc Changes COPYING META.json META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
