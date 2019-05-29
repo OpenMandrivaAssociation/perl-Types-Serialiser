@@ -12,6 +12,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Async/MLEHMANN/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl(common::sense)
+BuildRequires:  perl(ExtUtils::MakeMaker)
 
 BuildArch:	noarch
 
