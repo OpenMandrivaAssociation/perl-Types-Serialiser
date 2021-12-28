@@ -8,7 +8,7 @@ Summary:	Simple data types for common serialisation formats
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Async/MLEHMANN/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Async/MLEHMANN/%{upstream_name}-%{version}.tar.gz
 
 BuildRequires:  perl-devel
 BuildRequires:	perl(common::sense)
@@ -27,7 +27,7 @@ by different implementations so they become interoperable between each
 other.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
