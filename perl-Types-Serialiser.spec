@@ -7,7 +7,7 @@ Epoch:    1
 Summary:	Simple data types for common serialisation formats
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Async/MLEHMANN/%{upstream_name}-%{version}.tar.gz
 
 BuildRequires:  perl-devel
