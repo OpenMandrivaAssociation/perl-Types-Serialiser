@@ -3,7 +3,6 @@
 Name:		perl-%{upstream_name}
 Version:	1.01
 Release:	1
-Epoch:    1
 Summary:	Simple data types for common serialisation formats
 License:	GPL+ or Artistic
 Group:		Development/Perl
@@ -27,13 +26,11 @@ by different implementations so they become interoperable between each
 other.
 
 %prep
-%setup -q -n %{upstream_name}-%{version}
+%autosetup -p1 -n %{upstream_name}-%{version}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor
-
+perl Makefile.PL INSTALLDIRS=vendor
 %make_build
-
 
 %install
 %make_install
